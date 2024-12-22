@@ -84,14 +84,14 @@ The evaluation of the models was conducted based on the following metrics:
 The results indicated that the Random Forest Ensemble Model has the highest Accuracy and the highest AUC.
 
 
-![ROC Curve for the Random Forest Model](Receiver operating characteristic (ROC) Curve (OPTIMIZED RANDOM FOREST MODEL).png)
+![ROC Curve for the Random Forest Model](ROC_Curve_Optimized_Random_Forest.png)
 
 
 
 ## Conclusion
 The provided historical data indeed has predictive power in determing customer churn. The Hyperparameter tuned Logistic regression model, the Pruned Decision Tree Model and the Random Forest Ensemble Model have shown the ability to predict churn with high to very high accuracy and AUC scores. The following is an analysis on the predictive power of the features used in the modeling.
 
-![Top 12 Feature Importances Rankings](Top 12 Feature Importance Rankings.png)
+![Top 12 Feature Importances Rankings](TFeature_Importance_Rankings.png)
 
 
 The best performing model was the **Random Forest Ensemble** with a with perfect Training Accuracy and AUC scores. The test Accuracy is at 93% while the test AUC is 86%.
