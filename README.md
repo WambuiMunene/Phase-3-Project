@@ -72,7 +72,8 @@ After the baseline Logistic Model, the SMOTE resampled Logistic Model and the dr
 ## Evaluation
 
 The evaluation of the models was conducted based on the following metrics:-
-    + Accuracy is a measure of how often the model gets the prediction right, and in this case measures how often the model correctly predicts whether a customer will churn or not. A test accuracy score of 0.92 from the best Random Forest Ensemble Model means that our model was able to predict correctly 92% of the time.
+
+   + Accuracy is a measure of how often the model gets the prediction right, and in this case measures how often the model correctly predicts whether a customer will churn or not. A test accuracy score of 0.92 from the best Random Forest Ensemble Model means that our model was able to predict correctly 92% of the time.
     
    + AUC evaluates the ability of the model to differentiate between customers who churn and those who don't, across all possible threshold settings - ranging from conservative (label fewer customers as churners) to more aggressive (label more customers as churners). An AUC of 0.5 means the model is no better than random guessing while an AUC of 1.0 means the model perfectly distinguishes between churners and non-churners. The test AUC of 0.87 from the best model - Random Forest Ensemble Model means that there is an 87% chance that the model will correctly rank a randomly chosen churner higher than a randomly chosen non-churner.
    
